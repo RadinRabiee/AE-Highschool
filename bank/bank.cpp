@@ -64,13 +64,13 @@ int main(){
 while(true){
 string c;
 cin>>c;
-if(c=="balance"){
+if(c=="BALANCE"){
 int id;
 cin>>id;
 balance(id);
 
 }
-if(c=="deposit"){
+if(c=="DEPOSIT"){
 int id;
 cin>>id;
 double value ;
@@ -82,7 +82,7 @@ deposit(id,value);
 
 }
 
-if (c=="withdraw"){
+if (c=="WITHDRAW"){
 int id;
 cin>>id;
 double value;
